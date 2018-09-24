@@ -1,7 +1,7 @@
 public class Mainn {
     public static void main(String [ ] args){
         String s = "шла саша по шоссе и сосала";
-        String toFind ="сосала";
+        String toFind ="шоссе";
 
         for (int i=0; i<s.length();i++){
             if(i+toFind.length()>s.length()){
